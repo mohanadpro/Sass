@@ -1,6 +1,24 @@
 $mainColor:#fff;
-
+$mainBackgroundColor:rgb(32, 18, 85);
+$borderColor:rgb(32, 18, 85);
+$fontFamily:"Times New Random";
+$padding:10px;
+$margin:10px;
+$fontSize:20px;
 .class1{
-    background-color: red;
+    background-color:$mainBackgroundColor;
     color: $mainColor;
+    padding: $padding;
+    margin: $margin;
 } 
+.class2{
+    border: 10px solid $borderColor;
+}
+
+.class3{
+    font-size: $fontSize;    
+}
+
+.class4{
+    font-family: $fontFamily;
+}

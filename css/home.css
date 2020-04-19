@@ -1,3 +1,14 @@
 .class1 {
-  background-color: red;
-  color: #fff; }
+  background-color: #201255;
+  color: #fff;
+  padding: 10px;
+  margin: 10px; }
+
+.class2 {
+  border: 10px solid #201255; }
+
+.class3 {
+  font-size: 20px; }
+
+.class4 {
+  font-family: "Times New Random"; }
