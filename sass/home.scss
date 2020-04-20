@@ -15,38 +15,32 @@ $numberOfElement:4;
 .container{
     width: $width;
 }
-.class1{
-    font-size: $fontSize+3;
-    padding: $padding;
+
+.mainClass{
     border: 2px solid $borderColor;
     background-color:$mainBackgroundColor;
     color: $mainColor;
     width: $width/$numberOfElement;
     float: left;
     padding: $padding;
-
-} 
-.class2{
-    font-size: $fontSize*2;
-
     border: 2px solid $borderColor;
-    padding: $padding;
-    background-color:$mainBackgroundColor;
-    color: $mainColor;
-    width: $width/$numberOfElement;
-    float: left;
 
 }
 
-.class3{
+.class1{
+    @extend .mainClass;
     font-size: $fontSize+3;
+    
+} 
+.class2{
+    @extend .mainClass;
+    font-size: $fontSize*2;
+}
 
-    background-color:$mainBackgroundColor;
-    color: $mainColor;
-    width: $width/$numberOfElement;
-    float: left;
-    border: 2px solid $borderColor;
-    padding: $padding;
+.class3{
+    @extend .mainClass;
+
+    font-size: $fontSize+3;
 
     .class3a{
         color: $mainColor;
@@ -55,12 +49,8 @@ $numberOfElement:4;
 }
 
 .class4{
-    padding: $padding;
+    @extend .mainClass;
+
     font-size: $fontSize*2;
-    
-    border: 2px solid $borderColor;
-    background-color:$mainBackgroundColor;
-    color: $mainColor;
-    width: $width/$numberOfElement;
-    float: left;
+
 }

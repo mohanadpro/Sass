@@ -7,42 +7,26 @@
 .container {
   width: 100%; }
 
-.class1 {
-  font-size: 23px;
-  padding: 10px;
+.mainClass, .class1, .class2, .class3, .class4 {
   border: 2px solid #201255;
   background-color: #201255;
   color: #fff;
   width: 25%;
   float: left;
-  padding: 10px; }
+  padding: 10px;
+  border: 2px solid #201255; }
+
+.class1 {
+  font-size: 23px; }
 
 .class2 {
-  font-size: 40px;
-  border: 2px solid #201255;
-  padding: 10px;
-  background-color: #201255;
-  color: #fff;
-  width: 25%;
-  float: left; }
+  font-size: 40px; }
 
 .class3 {
-  font-size: 23px;
-  background-color: #201255;
-  color: #fff;
-  width: 25%;
-  float: left;
-  border: 2px solid #201255;
-  padding: 10px; }
+  font-size: 23px; }
   .class3 .class3a {
     color: #fff;
     background-color: #201255; }
 
 .class4 {
-  padding: 10px;
-  font-size: 40px;
-  border: 2px solid #201255;
-  background-color: #201255;
-  color: #fff;
-  width: 25%;
-  float: left; }
+  font-size: 40px; }
