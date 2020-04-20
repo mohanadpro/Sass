@@ -1,0 +1,8 @@
+$counter:16;
+$fontSize:20px;
+
+@for $var from 1 through $counter{
+    .class#{$var}{
+        font-size: $fontSize+$var;
+    }
+}
