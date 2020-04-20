@@ -1,18 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.container {
+  width: 100%; }
+
 .class1 {
+  font-size: 23px;
+  padding: 10px;
+  border: 2px solid #201255;
   background-color: #201255;
   color: #fff;
-  padding: 10px;
-  margin: 10px; }
+  width: 25%;
+  float: left;
+  padding: 10px; }
 
 .class2 {
-  border: 10px solid #201255; }
+  font-size: 40px;
+  border: 2px solid #201255;
+  padding: 10px;
+  background-color: #201255;
+  color: #fff;
+  width: 25%;
+  float: left; }
 
 .class3 {
-  font-size: 20px;
-  border: 1px solid #201255; }
+  font-size: 23px;
+  background-color: #201255;
+  color: #fff;
+  width: 25%;
+  float: left;
+  border: 2px solid #201255;
+  padding: 10px; }
   .class3 .class3a {
     color: #fff;
     background-color: #201255; }
 
 .class4 {
-  font-family: "Times New Random"; }
+  padding: 10px;
+  font-size: 40px;
+  border: 2px solid #201255;
+  background-color: #201255;
+  color: #fff;
+  width: 25%;
+  float: left; }

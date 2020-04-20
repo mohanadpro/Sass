@@ -5,20 +5,49 @@ $fontFamily:"Times New Random";
 $padding:10px;
 $margin:10px;
 $fontSize:20px;
+$width:100%;
+$numberOfElement:4;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: $width;
+}
 .class1{
+    font-size: $fontSize+3;
+    padding: $padding;
+    border: 2px solid $borderColor;
     background-color:$mainBackgroundColor;
     color: $mainColor;
+    width: $width/$numberOfElement;
+    float: left;
     padding: $padding;
-    margin: $margin;
+
 } 
 .class2{
-    border: 10px solid $borderColor;
+    font-size: $fontSize*2;
+
+    border: 2px solid $borderColor;
+    padding: $padding;
+    background-color:$mainBackgroundColor;
+    color: $mainColor;
+    width: $width/$numberOfElement;
+    float: left;
+
 }
 
 .class3{
-    font-size: $fontSize;   
-    border: 1px solid $borderColor;
-    
+    font-size: $fontSize+3;
+
+    background-color:$mainBackgroundColor;
+    color: $mainColor;
+    width: $width/$numberOfElement;
+    float: left;
+    border: 2px solid $borderColor;
+    padding: $padding;
+
     .class3a{
         color: $mainColor;
         background-color: $mainBackgroundColor;
@@ -26,5 +55,12 @@ $fontSize:20px;
 }
 
 .class4{
-    font-family: $fontFamily;
+    padding: $padding;
+    font-size: $fontSize*2;
+    
+    border: 2px solid $borderColor;
+    background-color:$mainBackgroundColor;
+    color: $mainColor;
+    width: $width/$numberOfElement;
+    float: left;
 }
