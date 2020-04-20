@@ -16,7 +16,13 @@ $fontSize:20px;
 }
 
 .class3{
-    font-size: $fontSize;    
+    font-size: $fontSize;   
+    border: 1px solid $borderColor;
+    
+    .class3a{
+        color: $mainColor;
+        background-color: $mainBackgroundColor;
+    }
 }
 
 .class4{
