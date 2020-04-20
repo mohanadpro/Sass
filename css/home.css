@@ -22,6 +22,14 @@ body {
 .class2 {
   font-size: 40px; }
 
+.class2:hover {
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px); }
+
 .class3 {
   font-size: 23px; }
   .class3 .class3a {

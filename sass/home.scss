@@ -33,14 +33,26 @@ $numberOfElement:4;
 
 }
 
+@mixin ApplyTransition($type,$duration,$effect) {
+    transition:$type $duration $effect;
+    -webkit-transition:$type $duration $effect;
+    -moz-transition:$type $duration $effect;
+    -o-transition:$type $duration $effect;
+}
+
 .class1{
     @extend %mainClass;
-    // font-size: $fontSize+3;
+
     
 } 
 .class2{
     @extend %mainClass;
     font-size: $fontSize*2;
+}
+
+.class2:hover{
+    @include ApplyTransition(all,1s,ease-in-out);
+    transform: translateY(50px);
 }
 
 .class3{
