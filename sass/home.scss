@@ -1,3 +1,8 @@
+
+
+// I import hte _file so each properties will apply here
+@import "_file";
+
 $mainColor:#fff;
 $mainBackgroundColor:rgb(32, 18, 85);
 $borderColor:rgb(32, 18, 85);
@@ -30,7 +35,7 @@ $numberOfElement:4;
 
 .class1{
     @extend %mainClass;
-    font-size: $fontSize+3;
+    // font-size: $fontSize+3;
     
 } 
 .class2{
