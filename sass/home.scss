@@ -1,5 +1,4 @@
 
-
 // I import hte _file so each properties will apply here
 @import "_file";
 
@@ -12,6 +11,16 @@ $margin:10px;
 $fontSize:20px;
 $width:100%;
 $numberOfElement:4;
+$direction:rtl;
+$floatdirection:left;
+
+@if $direction==ltr{
+    $floatdirection:left;
+}
+@else
+{
+    $floatdirection:right;
+}
 *{
     margin: 0;
     padding: 0;
@@ -27,7 +36,7 @@ $numberOfElement:4;
     background-color:$mainBackgroundColor;
     color: $mainColor;
     width: $width/$numberOfElement;
-    float: left;
+    float: $floatdirection;
     padding: $padding;
     border: 2px solid $borderColor;
 
