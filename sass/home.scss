@@ -16,7 +16,8 @@ $numberOfElement:4;
     width: $width;
 }
 
-.mainClass{
+// I use this symbol '%' when I want to use the class just in extend property and not in the HTML and this symbol names placeholder
+%mainClass{
     border: 2px solid $borderColor;
     background-color:$mainBackgroundColor;
     color: $mainColor;
@@ -28,17 +29,17 @@ $numberOfElement:4;
 }
 
 .class1{
-    @extend .mainClass;
+    @extend %mainClass;
     font-size: $fontSize+3;
     
 } 
 .class2{
-    @extend .mainClass;
+    @extend %mainClass;
     font-size: $fontSize*2;
 }
 
 .class3{
-    @extend .mainClass;
+    @extend %mainClass;
 
     font-size: $fontSize+3;
 
@@ -49,7 +50,7 @@ $numberOfElement:4;
 }
 
 .class4{
-    @extend .mainClass;
+    @extend %mainClass;
 
     font-size: $fontSize*2;
 

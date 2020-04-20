@@ -7,7 +7,7 @@
 .container {
   width: 100%; }
 
-.mainClass, .class1, .class2, .class3, .class4 {
+.class1, .class2, .class3, .class4 {
   border: 2px solid #201255;
   background-color: #201255;
   color: #fff;
