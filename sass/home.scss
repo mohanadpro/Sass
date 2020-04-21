@@ -81,6 +81,7 @@ $floatdirection:left;
     }:hover{
         background-color: yellowgreen;
     }
+    // hover on the parent
     &:hover{
         background-color: teal;
         color: white;

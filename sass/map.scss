@@ -1,0 +1,15 @@
+$mapH:(h1:50px,h2:40px,h3:30px,h4:20px,h5:10);
+
+$mapSection:(header:16px,nav:18px,main:20px,aside:22px,footer:24px);
+
+@each $key,$val in $mapH{
+    #{$key}{
+        font-size: $val;
+    }
+} 
+
+@each $key,$val in $mapSection{
+    #{$key}{
+        font-size: $val;
+    }
+} 
