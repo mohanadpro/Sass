@@ -1,0 +1,17 @@
+
+@function Factorial($val){
+    $result:1px;
+    @for $var from 1 to $val {
+        $result:$result*$val;        
+    }
+
+    @if($result>250)
+    {
+        $result:250px;
+    }
+    @return $result;
+}
+
+.class1{
+    font-size: Factorial(6);
+}
