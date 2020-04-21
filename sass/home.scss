@@ -72,6 +72,18 @@ $floatdirection:left;
     .class3a{
         color: $mainColor;
         background-color: $mainBackgroundColor;
+        // hover on the child class3a
+        .class3a1{
+
+        }:hover{
+            background-color: #F3fF;
+        }
+    }:hover{
+        background-color: yellowgreen;
+    }
+    &:hover{
+        background-color: teal;
+        color: white;
     }
 }
 

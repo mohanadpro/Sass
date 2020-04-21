@@ -1,0 +1,30 @@
+.Facebook, .Twitter, .Youtube, .Linkedin {
+  width: 150px;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+  float: right; }
+
+.Facebook {
+  background-color: blue; }
+  .Facebook:hover {
+    background-color: darkblue;
+    color: white; }
+
+.Twitter {
+  background-color: lightblue; }
+  .Twitter:hover {
+    background-color: darkblue;
+    color: white; }
+
+.Youtube {
+  background-color: #b36161; }
+  .Youtube:hover {
+    background-color: darkblue;
+    color: white; }
+
+.Linkedin {
+  background-color: teal; }
+  .Linkedin:hover {
+    background-color: darkblue;
+    color: white; }

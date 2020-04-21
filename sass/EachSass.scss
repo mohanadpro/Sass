@@ -1,0 +1,30 @@
+$socialMedias:Facebook Twitter Youtube Linkedin;
+$Colors:blue Lightblue rgb(179, 97, 97) teal ;
+$hoverBackgroundColor:darkblue;
+
+// placeholde asign which is used just for css extends and not in the html elements as a class
+%ElementPosition{
+    width: 150px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    float: right;
+}
+// for each element inthe first and second list 
+@each $social,$color in 
+(Facebook,blue),
+(Twitter,lightblue),
+(Youtube,rgb(179, 97, 97)),
+(Linkedin,teal)
+{
+    .#{$social}{
+        @extend %ElementPosition;
+        background-color: $color;
+        // this is how I make hover on the element in the sass
+        &:hover{
+            background-color:$hoverBackgroundColor ;
+            color: white;
+        }
+    }
+
+}  

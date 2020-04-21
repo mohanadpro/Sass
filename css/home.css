@@ -35,6 +35,13 @@ body {
   .class3 .class3a {
     color: #fff;
     background-color: #201255; }
+    .class3 .class3a :hover {
+      background-color: #F3fF; }
+  .class3 :hover {
+    background-color: yellowgreen; }
+  .class3:hover {
+    background-color: teal;
+    color: white; }
 
 .class4 {
   font-size: 40px; }
